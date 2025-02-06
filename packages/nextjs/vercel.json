@@ -1,0 +1,9 @@
+{
+  "installCommand": "yarn install",
+  "crons": [
+    {
+      "path": "/api/query-portfolio",
+      "schedule": "0 * * * *"
+    }
+  ]
+}
